@@ -14,7 +14,7 @@
                     name="action_add_from_catalog"
                     type="object"
                     string="Catalog"
-                    class="btn btn-secondary mt-2 d-block d-md-none"
+                    class="btn btn-secondary col-12 mt-2 mb-2 d-block d-md-none"
                     context="{'order_id': id, 'product_catalog_order_model': 'purchase.order'}"
                     invisible="state in ('done','cancel')"
                 />
